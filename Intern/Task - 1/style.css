@@ -1,0 +1,170 @@
+@font-face{
+    font-family: volkhov;
+    src: url(./fonts/Volkhov-BoldItalic.ttf);
+
+    font-family: poppins;
+    src: url(./fonts/Poppins-ExtraLight.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.h1{
+    font-family: Volkhov;
+    font-size: 46px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.con{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.container {
+    width: 1280px;
+    max-width: 1329px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.tab-button.active,
+.tab-button:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    font-family: poppins;
+}
+
+.clip{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.product-title {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.brand-name {
+    color: #777;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: #ffcc00;
+    font-size: 18px;
+}
+
+.reviews {
+    margin-left: 5px;
+    color: #777;
+    text-align: left;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left
+}
+
+.availability {
+    color: red;
+    font-weight: lighter;
+}
+
+.view-more-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: poppins;
+}
